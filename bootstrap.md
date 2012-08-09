@@ -24,6 +24,7 @@ MySQL - Database Server
 * Read from Caveats...
     - `unset TMPDIR; mysql_install_db --verbose --user=`mac_user_name` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp`
 * Start and then login w/ root to confirm. `mysql.server start; mysql -root`
+* If you are having trouble, you may need to reboot or [uninstall the old version](http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os). Find running others with `lsof -i:3006` 
 * Now secure your install and change the root PW. `mysql_secure_installation`.
 * REMEMBER WHAT YOU CHANGE IT TO!
 

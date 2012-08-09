@@ -12,13 +12,20 @@ Homebrew (brew) - Package manager for Mac.
 * Easy install script - `ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)`
 * Check install `brew doctor`
 
+Oh My Zsh - ZSH "dotfile" Integrations and the ZSH Shell Core (this replaces bash/tsh/etc).
+----------
+* Quick install script `wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh`
+* Add Plugins
+    - TBD
+
 MySQL - Database Server
 ----------
 * `brew install mysql`
 * Read from Caveats...
     - `unset TMPDIR; mysql_install_db --verbose --user=`mac_user_name` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp`
 * Start and then login w/ root to confirm. `mysql.server start; mysql -root`
-* Now secure your install and change the root PW. `mysql_secure_installation`
+* Now secure your install and change the root PW. `mysql_secure_installation`.
+* REMEMBER WHAT YOU CHANGE IT TO!
 
 Git - Version Control
 ---------------

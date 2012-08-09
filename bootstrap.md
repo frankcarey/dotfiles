@@ -6,6 +6,11 @@ iTerm2 - Improved Terminal App for Mac.
 * [Download](http://code.google.com/p/iterm2/downloads/list), extract, and run to open an iTerm window, but it's also installed.
 * Solarized Colors - [Iterm2 instructions in repo](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/README.md)
 
+Homebrew (brew) - Package manager for Mac.
+--------------
+* Better than Macports. If you have Macports you might want too uninstall it first.
+* Easy install script - `ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)`
+* Check install `brew doctor`
 
 Version Control
 ---------------

@@ -14,8 +14,9 @@ iTerm2 - Improved Terminal App for Mac.
 
 Xcode -  At minimum provides the ability to compile programs with homebrew or macports. Aslo useful as a Mac OSX / iOS IDE.
 -------
-* Note that this download is a monster 1.5GB!
-* If using >= Snow Leopard , download 4.x via the app store. If using Lion, you must use the free older version (3.2.6). You may also have to enroll in the developer program.
+* Now, you can just install Apple's Command Line Tools w/o installing Xcode. This saves a ton of time and space if you don't use Xcode for devel. If you do install Xcode, you will then need to install CLT in the Xcode preferences > Downloads. If you already downloaded and want to save some space, then you can also uninstall Xcode. See http://kennethreitz.com/xcode-gcc-and-homebrew.html
+* ~~Note that this download is a monster 1.5GB!~~
+* ~~If using >= Snow Leopard , download 4.x via the app store. If using Lion, you must use the free older version (3.2.6). You may also have to enroll in the developer program.~~
 
 Homebrew (brew) - Package manager for Mac.
 --------------

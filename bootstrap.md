@@ -59,3 +59,7 @@ SSH Keys - ONLY DO THIS IS YOU HAVEN'T ALREADY CREATED KEYS OR WILL LOOSE YOUR O
 * Generate SSH Keys (MAKE SURE TO GIVE IT A GOOD PASSPHRASE). `ssh-keygen -t rsa -C "your_email@youremail.com"`
 * Store your passphrase on the OSX Keychain so you dont have to remember it. `ssh-add -K`
 * To add non-default keys use 'ssh-add -K /path/to/private/key/file' [documentation](http://www-uxsup.csx.cam.ac.uk/~aia21/osx/leopard-ssh.html#Passphrase)
+* Add (Public) keys to various machines and servies, examples: github, remote machines.
+
+
+

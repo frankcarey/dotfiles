@@ -22,9 +22,11 @@ Homebrew (brew) - Package manager for Mac.
 * Better than Macports. If you have Macports you might want too uninstall it first.
 * Easy install script - `ruby <(curl -fsSk https://raw.github.com/mxcl/homebrew/go)`
 * Check install `brew doctor`
+* Install wget right away: `brew install wget`
 
 Oh My Zsh - ZSH "dotfile" Integrations and the ZSH Shell Core (this replaces bash/tsh/etc).
 ----------
+* Make sure you install wget via homebrew or macports first. (see above)
 * Quick install script `wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh`
 * Add Plugins
     - TBD

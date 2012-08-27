@@ -28,6 +28,7 @@ Homebrew (brew) - Package manager for Mac.
 Oh My Zsh - ZSH "dotfile" Integrations and the ZSH Shell Core (this replaces bash/tsh/etc).
 ----------
 * Make sure you install wget via homebrew or macports first. (see above)
+* Clone this repo from https://github.com/frankcarey/dotfiles/ and follow the Use my dotfiles section OR you can follow the Quick Script below to start from scratch.
 * Quick install script `wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | sh`
 * Add Plugins
     - TBD
@@ -60,6 +61,11 @@ SSH Keys - ONLY DO THIS IS YOU HAVEN'T ALREADY CREATED KEYS OR WILL LOOSE YOUR O
 * Store your passphrase on the OSX Keychain so you dont have to remember it. `ssh-add -K`
 * To add non-default keys use 'ssh-add -K /path/to/private/key/file' [documentation](http://www-uxsup.csx.cam.ac.uk/~aia21/osx/leopard-ssh.html#Passphrase)
 * Add (Public) keys to various machines and servies, examples: github, remote machines.
+
+Clone my dotfiles
+=================
+See the general README.md on those setup instructions.
+
 
 
 

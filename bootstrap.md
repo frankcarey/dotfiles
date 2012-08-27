@@ -11,6 +11,12 @@ iTerm2 - Improved Terminal App for Mac.
 * [Download](http://code.google.com/p/iterm2/downloads/list), extract, and run to open an iTerm window, but it's also installed.
 * Solarized Colors - [Iterm2 instructions in repo](https://github.com/altercation/solarized/blob/master/iterm2-colors-solarized/)
 
+
+Xcode -  At minimum provides the ability to compile programs with homebrew or macports. Aslo useful as a Mac OSX / iOS IDE.
+-------
+* Note that this download is a monster 1.5GB!
+* If using >= Snow Leopard , download 4.x via the app store. If using Lion, you must use the free older version (3.2.6). You may also have to enroll in the developer program.
+
 Homebrew (brew) - Package manager for Mac.
 --------------
 * Better than Macports. If you have Macports you might want too uninstall it first.

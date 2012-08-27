@@ -39,8 +39,11 @@ MySQL - Database Server
     - `unset TMPDIR; mysql_install_db --verbose --user=`mac_user_name` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql --tmpdir=/tmp`
 * Start and then login w/ root to confirm. `mysql.server start; mysql -root`
 * If you are having trouble, you may need to reboot or [uninstall the old version](http://stackoverflow.com/questions/4359131/brew-install-mysql-on-mac-os). Find running others with `lsof -i:3006` 
-* Now secure your install and change the root PW. `mysql_secure_installation`.
-* REMEMBER WHAT YOU CHANGE IT TO!
+* Now secure your install and change the root PW (REMEMBER WHAT YOU CHANGE IT TO). `mysql_secure_installation`. USe the defaults it suggests (remove anon user and test db, block remote root login)
+* (optional) Start the MySQL Server on boot:
+    `mkdir -p ~/Library/LaunchAgents &&
+    cp /usr/local/Cellar/mysql/5.5.27/homebrew.mxcl.mysql.plist ~/Library/LaunchAgents/ &&
+    launchctl load -w ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist`
 
 Git - Version Control
 ---------------

@@ -1,11 +1,6 @@
-CHANGELOG
+INSTALL
 ========
 
-MASTER
-======
-* bootstrap
-    - (Added) instructions for git and gitsubtree.
-* bootstrap-mac
-    - (Added) general notes on getting basic setup steps.
-* oh-my-zsh
-    - (Added @1120f9) A community-driven framework for managing your zsh (bash alternative) configuration.
+1) Read over my [Mac Bootstrap Instructions](https://github.com/frankcarey/dotfiles/blob/master/bootstrap.md) to make sure that you have everything installed. I use this when setting up or reinstalling a new mac.
+2) Clone this repo to ~/.dotfiles
+3) ln -s .dotfiles/.zshrc .

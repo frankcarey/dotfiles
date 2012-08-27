@@ -33,5 +33,16 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+## PATHS ##
+
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+  PATH=/usr/bin:/bin:/usr/sbin:/sbin
+
+# Put /usr/local/bin before /usr/bin per `brew doctor`.
+  PATH=/usr/local/bin:$PATH
+
+# Add the git-contrib path so that we can use git-subtree.
+  PATH=$PATH:/usr/local/share/git-core/contrib
+
+# Final export of PATH
+  export PATH

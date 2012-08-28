@@ -41,8 +41,9 @@ source $ZSH/oh-my-zsh.sh
 # Put /usr/local/bin before /usr/bin per `brew doctor`.
   PATH=/usr/local/bin:$PATH
 
-# Add the git-contrib path so that we can use git-subtree.
-  PATH=$PATH:/usr/local/share/git-core/contrib
+# Add the git contrib path so that we can use git-subtree.
+# See https://github.com/mxcl/homebrew/issues/12897
+#  PATH=$PATH:/usr/local/share/git-core/contrib/subtree
 
 # Final export of PATH
   export PATH

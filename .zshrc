@@ -47,3 +47,12 @@ source $ZSH/oh-my-zsh.sh
 
 # Final export of PATH
   export PATH
+
+#BOXEN VERSION OF HOMEBREW
+export PATH=/opt/boxen/homebrew/bin:$PATH
+export PATH=/opt/boxen/homebrew/sbin:$PATH
+export PATH=/opt/boxen/homebrew/opt/ruby/bin:$PATH
+
+#BOXEN RUBY STUFF
+export RBENV_ROOT=/opt/boxen/homebrew/var/rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

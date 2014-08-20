@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="steeef"
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -29,7 +29,7 @@ ZSH_THEME="robbyrussell"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git, common-aliases, dirhistory, node, npm, history-substring-search, tmux, vagrant, zshreload)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -49,13 +49,13 @@ source $ZSH/oh-my-zsh.sh
   export PATH
 
 #BOXEN VERSION OF HOMEBREW
-export PATH=/opt/boxen/homebrew/bin:$PATH
-export PATH=/opt/boxen/homebrew/sbin:$PATH
-export PATH=/opt/boxen/homebrew/opt/ruby/bin:$PATH
+#export PATH=/opt/boxen/homebrew/bin:$PATH
+#export PATH=/opt/boxen/homebrew/sbin:$PATH
+#export PATH=/opt/boxen/homebrew/opt/ruby/bin:$PATH
 
 #BOXEN RUBY STUFF
-export RBENV_ROOT=/opt/boxen/homebrew/var/rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+#export RBENV_ROOT=/opt/boxen/homebrew/var/rbenv
+#if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 bindkey '^[[A' up-line-or-search
 bindkey '^[[B' down-line-or-search

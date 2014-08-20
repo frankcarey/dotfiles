@@ -12,3 +12,6 @@ colorscheme solarized
 " syntax enable
 " set background=dark
 " colorscheme solarized
+
+" Enable JSHint for syntastic
+let g:syntastic_javascript_checkers = ['jshint']

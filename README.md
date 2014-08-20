@@ -5,3 +5,8 @@ INSTALL
 2. Clone this repo to ~/.dotfiles (don't forget to grab the submodules)
     git clone --recursive git@github.com:frankcarey/dotfiles.git
 3. ln -s .dotfiles/.zshrc . (repeat for each dotfile you want to use.. @TODO Script this)
+
+
+install jshint
+------------
+npm install jshint -g

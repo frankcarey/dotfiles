@@ -15,3 +15,6 @@ colorscheme solarized
 
 " Enable JSHint for syntastic
 let g:syntastic_javascript_checkers = ['jshint']
+
+" Break open a line with Ctrl-C in edit mode
+imap <C-c> <CR><Esc>O

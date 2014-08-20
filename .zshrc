@@ -57,5 +57,5 @@ source $ZSH/oh-my-zsh.sh
 #export RBENV_ROOT=/opt/boxen/homebrew/var/rbenv
 #if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
-bindkey '^[[A' up-line-or-search
-bindkey '^[[B' down-line-or-search
+#bindkey '^[[A' up-line-or-search
+#bindkey '^[[B' down-line-or-search

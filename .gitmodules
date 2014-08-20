@@ -3,10 +3,34 @@
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic
-	url = git@github.com:scrooloose/syntastic.git
+	url = https://github.com/scrooloose/syntastic.git
 [submodule ".vim/bundle/vim-better-whitespace"]
 	path = .vim/bundle/vim-better-whitespace
 	url = git://github.com/ntpeters/vim-better-whitespace.git
 [submodule ".vim/bundle/nerdtree"]
 	path = .vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule ".vim/bundle/vim-base"]
+	path = .vim/bundle/vim-base
+	url = https://github.com/zivtech/vim-base.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/vim-fugative"]
+	path = .vim/bundle/vim-fugative
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule ".vim/bundle/vdebug"]
+	path = .vim/bundle/vdebug
+	url = https://github.com/joonty/vdebug.git
+[submodule ".vim/bundle/vim-puppet"]
+	path = .vim/bundle/vim-puppet
+	url = https://github.com/rodjek/vim-puppet.git
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule ".vim/bundle/vim-drupal"]
+	path = .vim/bundle/vim-drupal
+	url = https://github.com/zivtech/vim-drupal.git
+[submodule ".vim/bundle/vim-sensible"]
+	path = .vim/bundle/vim-sensible
+	url = https://github.com/tpope/vim-sensible.git

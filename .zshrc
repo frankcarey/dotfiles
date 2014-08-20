@@ -56,3 +56,6 @@ export PATH=/opt/boxen/homebrew/opt/ruby/bin:$PATH
 #BOXEN RUBY STUFF
 export RBENV_ROOT=/opt/boxen/homebrew/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+bindkey '^[[A' up-line-or-search
+bindkey '^[[B' down-line-or-search

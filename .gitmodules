@@ -1,5 +1,5 @@
 [submodule "oh-my-zsh"]
-	path = oh-my-zsh
+	path = oh-my-zsh.symlink
 	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule ".vim/bundle/syntastic"]
 	path = .vim/bundle/syntastic

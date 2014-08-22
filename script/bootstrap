@@ -3,7 +3,7 @@
 # bootstrap installs things.
 
 
-local overwrite_all=false backup_all=false skip_all=false
+overwrite_all=false backup_all=false skip_all=false
 
 OPTIND=1
 while getopts "S" opt; do

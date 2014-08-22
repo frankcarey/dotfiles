@@ -3,3 +3,4 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get update > /dev/null
 apt-get -y install tmux vim zsh git-core
 su -c "cd /home/vagrant/.dotfiles && ./script/bootstrap -S" vagrant
+sudo chsh -s $(which zsh) vagrant

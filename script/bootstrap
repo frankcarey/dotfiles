@@ -2,6 +2,21 @@
 #
 # bootstrap installs things.
 
+
+local overwrite_all=false backup_all=false skip_all=false
+
+OPTIND=1
+while getopts "S" opt; do
+    case "$opt" in
+    S)  skip_all=true
+        ;;
+    B)  backup_all=true
+        ;;
+    O)  overwrite_all=true
+        ;;
+    esac
+done
+
 cd "$(dirname "$0")/.."
 DOTFILES_ROOT=$(pwd)
 
@@ -25,28 +40,6 @@ fail () {
   printf "\r\033[2K  [\033[0;31mFAIL\033[0m] $1\n"
   echo ''
   exit
-}
-
-setup_gitconfig () {
-  if ! [ -f git/gitconfig.symlink ]
-  then
-    info 'setup gitconfig'
-
-    git_credential='cache'
-    if [ "$(uname -s)" == "Darwin" ]
-    then
-      git_credential='osxkeychain'
-    fi
-
-    user ' - What is your github author name?'
-    read -e git_authorname
-    user ' - What is your github author email?'
-    read -e git_authoremail
-
-    sed -e "s/AUTHORNAME/$git_authorname/g" -e "s/AUTHOREMAIL/$git_authoremail/g" -e "s/GIT_CREDENTIAL_HELPER/$git_credential/g" git/gitconfig.symlink.example > git/gitconfig.symlink
-
-    success 'gitconfig'
-  fi
 }
 
 
@@ -127,7 +120,6 @@ link_file () {
 install_dotfiles () {
   info 'installing dotfiles'
 
-  local overwrite_all=false backup_all=false skip_all=false
 
   for src in $(find "$DOTFILES_ROOT" -maxdepth 2 -name '*.symlink')
   do
@@ -136,20 +128,7 @@ install_dotfiles () {
   done
 }
 
-setup_gitconfig
 install_dotfiles
-
-# If we're on a Mac, let's install and setup homebrew.
-if [ "$(uname -s)" == "Darwin" ]
-then
-  info "installing dependencies"
-  if source bin/dot > /tmp/dotfiles-dot 2>&1
-  then
-    success "dependencies installed"
-  else
-    fail "error installing dependencies"
-  fi
-fi
 
 echo ''
 echo '  All installed!'

@@ -1,2 +1,5 @@
 # Vim history
 .netrwhist
+
+# Ignore all the extra vagrant stuff (like boxes)
+vagrant/vagrant.d.symlink/

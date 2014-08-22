@@ -1,51 +1,51 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh.symlink
 	url = https://github.com/robbyrussell/oh-my-zsh.git
-[submodule ".vim/bundle/syntastic"]
-	path = .vim/bundle/syntastic
+[submodule "vim/vim.symlink/bundle/syntastic"]
+	path = vim/vim.symlink/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule ".vim/bundle/vim-better-whitespace"]
-	path = .vim/bundle/vim-better-whitespace
+[submodule "vim/vim.symlink/bundle/vim-better-whitespace"]
+	path = vim/vim.symlink/bundle/vim-better-whitespace
 	url = git://github.com/ntpeters/vim-better-whitespace.git
-[submodule ".vim/bundle/nerdtree"]
-	path = .vim/bundle/nerdtree
+[submodule "vim/vim.symlink/bundle/nerdtree"]
+	path = vim/vim.symlink/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/vim-base"]
-	path = .vim/bundle/vim-base
+[submodule "vim/vim.symlink/bundle/vim-base"]
+	path = vim/vim.symlink/bundle/vim-base
 	url = https://github.com/zivtech/vim-base.git
-[submodule ".vim/bundle/vim-colors-solarized"]
-	path = .vim/bundle/vim-colors-solarized
+[submodule "vim/vim.symlink/bundle/vim-colors-solarized"]
+	path = vim/vim.symlink/bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule ".vim/bundle/vim-fugative"]
-	path = .vim/bundle/vim-fugative
+[submodule "vim/vim.symlink/bundle/vim-fugative"]
+	path = vim/vim.symlink/bundle/vim-fugative
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule ".vim/bundle/vdebug"]
-	path = .vim/bundle/vdebug
+[submodule "vim/vim.symlink/bundle/vdebug"]
+	path = vim/vim.symlink/bundle/vdebug
 	url = https://github.com/joonty/vdebug.git
-[submodule ".vim/bundle/vim-puppet"]
-	path = .vim/bundle/vim-puppet
+[submodule "vim/vim.symlink/bundle/vim-puppet"]
+	path = vim/vim.symlink/bundle/vim-puppet
 	url = https://github.com/rodjek/vim-puppet.git
-[submodule ".vim/bundle/vim-markdown"]
-	path = .vim/bundle/vim-markdown
+[submodule "vim/vim.symlink/bundle/vim-markdown"]
+	path = vim/vim.symlink/bundle/vim-markdown
 	url = https://github.com/tpope/vim-markdown.git
-[submodule ".vim/bundle/vim-drupal"]
-	path = .vim/bundle/vim-drupal
+[submodule "vim/vim.symlink/bundle/vim-drupal"]
+	path = vim/vim.symlink/bundle/vim-drupal
 	url = https://github.com/zivtech/vim-drupal.git
-[submodule ".vim/bundle/vim-sensible"]
-	path = .vim/bundle/vim-sensible
+[submodule "vim/vim.symlink/bundle/vim-sensible"]
+	path = vim/vim.symlink/bundle/vim-sensible
 	url = https://github.com/tpope/vim-sensible.git
-[submodule ".vim/bundle/jshint.vim"]
-	path = .vim/bundle/jshint.vim
+[submodule "vim/vim.symlink/bundle/jshintvim/vim.symlink"]
+	path = vim/vim.symlink/bundle/jshint.vim
 	url = https://github.com/walm/jshint.vim
-[submodule ".vim/bundle/vim-javascript-syntax"]
-	path = .vim/bundle/vim-javascript-syntax
+[submodule "vim/vim.symlink/bundle/vim-javascript-syntax"]
+	path = vim/vim.symlink/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
-[submodule ".vim/bundle/vim-javascript"]
-	path = .vim/bundle/vim-javascript
+[submodule "vim/vim.symlink/bundle/vim-javascript"]
+	path = vim/vim.symlink/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
-[submodule ".vim/bundle/vim-indent-guides"]
-	path = .vim/bundle/vim-indent-guides
+[submodule "vim/vim.symlink/bundle/vim-indent-guides"]
+	path = vim/vim.symlink/bundle/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides.git
-[submodule ".vim/bundle/delimitMate"]
-	path = .vim/bundle/delimitMate
+[submodule "vim/vim.symlink/bundle/delimitMate"]
+	path = vim/vim.symlink/bundle/delimitMate
 	url = https://github.com/Raimondi/delimitMate.git
